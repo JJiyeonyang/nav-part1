@@ -1,0 +1,37 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+header {
+  background-color: #273c72;
+}
+header .inner {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+header ul.menu {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul.menu > li {
+  margin-right: 78px;
+}
+header ul.menu > li:last-child {
+  margin-right: 0;
+}
+header ul.menu > li > a {
+  color: #fff;
+  opacity: 0.8;
+}
+header ul.menu > li > a:hover {
+  opacity: 1;
+}
